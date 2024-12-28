@@ -3,7 +3,7 @@ form.addEventListener("submit", function () {
     event.preventDefault()
     let email = form.email.vaule;
     let pass = form.password.value;
-       console.log(email,pass)
+    console.log(email, pass)
     if (email == "admin@empher.com" && pass == "empher@123") {
         console.log(data)
         alert("logged in Successfully.....!")
