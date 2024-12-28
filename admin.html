@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DemoBookApp</title>
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/admin.css">
 </head>
 
 <body>
     <div id="navbar">
     </div>
+    <form id="form">
+        <h2>Add New books</h2>
+        <input type="text" placeholder="Title" id="title">
+        <input type="text"  placeholder="Author" id="author">
+        <select id="select">
+            <option>Categroy</option>
+            <option value="fiction" id="fic">fiction</option>
+            <option value="comedy" id="com">comedy</option>
+            <option value="technical" id="tech">technical</option>
+        </select>
+        <input type="submit" value="Add New books">
+    </form>
+    <div id="form"></div>
 
 </body>
 <script src="./scripts/navbar.js"></script>
-
+<script src="./scripts/admin.js"></script>
 </html>
