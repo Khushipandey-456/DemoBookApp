@@ -1,0 +1,27 @@
+#form{
+    width: 50%;
+    margin: 3rem auto;
+    background-color: rgb(182, 159, 175);
+    height: 300px;
+    padding: 10px;
+}
+h2{
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+select{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
