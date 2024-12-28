@@ -1,0 +1,1 @@
+export const baseUrl="https://glossy-wonderful-radiator.glitch.me/"
