@@ -1,5 +1,5 @@
-let nav =()=>{
-    let card=` <div id="nav">
+let nav = () => {
+    let card = ` <div id="nav">
          <h3>Demo Book App</h3>
          <div id="nav-likns">
         <a href="index.html">Home</a>
@@ -7,6 +7,6 @@ let nav =()=>{
         <a href="books.html">Books</a>
         </div>
     </div>`
-    document.getElementById("navbar").innerHTML=card;
+    document.getElementById("navbar").innerHTML = card;
 }
 nav()
