@@ -1,4 +1,4 @@
-#nav{
+#nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -7,26 +7,30 @@
     padding: 10px;
     color: white;
     margin: auto;
-   
+
 }
-h3{
+
+h3 {
     font-size: 25px;
     margin-top: -4px;
     padding-left: 10px;
 }
-#nav-likns{
+
+#nav-likns {
     width: 50%;
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
     margin-right: 50px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     font-size: 20px;
 
 }
-a:hover{
+
+a:hover {
     color: lightsalmon;
 }
